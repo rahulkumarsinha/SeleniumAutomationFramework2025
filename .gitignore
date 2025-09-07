@@ -1,0 +1,67 @@
+# Compiled class files and build artifacts
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# IDE-specific files
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+*.iml
+*.iws
+*.ipr
+*.launch
+.factorypath
+
+# Maven/Gradle specific
+.gradle/
+.m2/repository/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+build.log
+target/
+!target/.gitignore # If you have specific files within target you want to include, add exceptions
+
+# Log files
+*.log
+logs/
+
+# Test results and reports
+test-output/
+surefire-reports/
+allure-results/
+extent-reports/
+target/site/serenity/ # For Serenity BDD framework
+
+# Local configuration files
+config/local.properties
+src/test/resources/config/local.properties # Example for local configuration
+*.properties.local
+*.xml.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Sensitive information (e.g., API keys, passwords)
+# It's recommended to use environment variables or a secure configuration management system
+# instead of storing sensitive data directly in files.
+# If absolutely necessary, ensure these files are ignored.
+secrets.properties
+credentials.json
+
+# WebDriver specific
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+IEDriverServer.exe
+*.selenium-browser-profile
