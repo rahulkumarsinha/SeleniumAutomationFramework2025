@@ -70,7 +70,7 @@ public class LoginTest extends BaseTest {
 		
 		test.info("Verifying page title...");
 		Log.info("Verifying page title...");
-		Assert.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration123");
+		Assert.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration");
 		
 		test.pass("Login Successful");
 	}
